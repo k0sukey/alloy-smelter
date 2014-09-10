@@ -1,0 +1,43 @@
+{
+	"name": "alloy-smelter",
+	"description": "Helper commands for Appcelerator Titanium MVC Framework Alloy",
+	"main": "bin/smelter",
+	"bin": {
+		"sm": "bin/smelter",
+		"smelter": "bin/smelter"
+	},
+	"keywords": [
+		"appcelerator",
+		"titanium",
+		"alloy"
+	],
+	"author": {
+		"name": "Kosuke Isobe",
+		"email": "isobe@k0suke.be",
+		"url": "https://github.com/k0sukey"
+	},
+	"homepage": "https://github.com/k0sukey/alloy-smelter",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/k0sukey/alloy-smelter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/k0sukey/alloy-smelter/issues"
+	},
+	"preferGlobal": true,
+	"version": "0.0.1",
+	"dependencies": {
+		"alloy": "^1.4.1",
+		"chalk": "^0.5.1",
+		"cli-table": "^0.3.0",
+		"commander": "^2.2.0",
+		"fs-extra": "^0.10.0",
+		"lodash": "^2.4.1",
+		"sprintf-js": "^0.0.7",
+		"wrench": "^1.5.8"
+	},
+	"engines": {
+		"node": ">=0.10"
+	},
+	"license": "MIT"
+}
