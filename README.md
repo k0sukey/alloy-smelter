@@ -2,7 +2,7 @@
 
 Helper commands for Appcelerator Titanium MVC Framework Alloy project app.
 
-### why alloy-smelter?
+### Why alloy-smelter?
 
 I frequently the controller on move, rename and remove.
 
@@ -24,6 +24,16 @@ Display usage information.
 
 ```sh
 $ smelter --help
+```
+
+#### generate
+
+Pass to Alloy generate command(controller, view, style).
+
+```sh
+$ smelter generate controller foo
+$ smelter generate view bar
+$ smelter generate style baz
 ```
 
 #### move
@@ -56,7 +66,7 @@ $ smelter build -t '-p ios --retina --tall'
 
 ##### --no-complie option
 
-Avoid alloy compile in titanium build.
+Avoid Alloy compile in Titanium build.
 Temporarily remove the ```ti.alloy``` plugin.
 Please describe yourself to ```tiapp.xml``` in ```<plugin>ti.alloy</plugin>```, If it does not return.
 
@@ -95,7 +105,7 @@ $ smelter clean
 
 #### stats
 
-Statistics a alloy project(*yet files count only*).
+Statistics a Alloy project(*yet files count only*).
 
 ```sh
 $ smelter stats
