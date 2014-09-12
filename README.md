@@ -44,6 +44,24 @@ $ smelter remove foo
 $ smelter remove bar/baz
 ```
 
+#### build
+
+Pass to Titanium build command.
+
+```
+$ smelter build -t '-p ios --retina --tall'
+```
+
+##### --no-complie option
+
+Avoid alloy compile in titanium build.
+Temporarily remove the ```ti.alloy``` plugin.
+Please describe yourself to ```tiapp.xml``` in ```<plugin>ti.alloy</plugin>```, If it does not return.
+
+```
+$ smelter build -t '-p ios --retina --tall' --no-compile
+```
+
 #### clean
 
 Removes previous build and **Resources** directories.
