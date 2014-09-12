@@ -1,0 +1,5 @@
+{
+	"iPhone5": "-p ios -Y iphone --retina --tall",
+	"iPhone4": "-p ios -Y iphone --retina",
+	"iPad": "-p ios -Y ipad --retina --tall"
+}
