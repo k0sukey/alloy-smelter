@@ -25,7 +25,7 @@
 		"url": "https://github.com/k0sukey/alloy-smelter/issues"
 	},
 	"preferGlobal": true,
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"dependencies": {
 		"alloy": "^1.4.1",
 		"chalk": "^0.5.1",
@@ -37,6 +37,9 @@
 		"sprintf-js": "^0.0.7",
 		"tiapp.xml": "^0.2.0",
 		"wrench": "^1.5.8"
+	},
+	"scripts": {
+		"test": "mocha test"
 	},
 	"engines": {
 		"node": ">=0.10"
