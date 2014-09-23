@@ -47,9 +47,18 @@ $ smelter generate view bar -T someWindow
 $ smelter generate style baz -T someWindow
 ```
 
+#### copy
+
+Bulk copy for controller, view and style files.
+
+```sh
+$ smelter copy foo bar
+$ smelter copy foo bar/baz
+```
+
 #### move
 
-Bulk move(rename) for controller, view and style files.
+Bulk move or rename for controller, view and style files.
 
 ```sh
 $ smelter move foo bar

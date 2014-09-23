@@ -9,7 +9,8 @@
 	"keywords": [
 		"appcelerator",
 		"titanium",
-		"alloy"
+		"alloy",
+		"cli"
 	],
 	"author": {
 		"name": "Kosuke Isobe",
@@ -25,7 +26,7 @@
 		"url": "https://github.com/k0sukey/alloy-smelter/issues"
 	},
 	"preferGlobal": true,
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"dependencies": {
 		"alloy": "^1.4.1",
 		"chalk": "^0.5.1",
