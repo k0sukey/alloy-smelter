@@ -36,6 +36,17 @@ $ smelter generate view bar
 $ smelter generate style baz
 ```
 
+##### --template option
+
+Using custom template option.
+Please prepare a template in ```process.env.HOME/.smelter/template/someWindow/controller.js, view.xml, style.tss```.
+
+```sh
+$ smelter generate controller foo -T someWindow
+$ smelter generate view bar -T someWindow
+$ smelter generate style baz -T someWindow
+```
+
 #### move
 
 Bulk move(rename) for controller, view and style files.
