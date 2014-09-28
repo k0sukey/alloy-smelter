@@ -115,6 +115,14 @@ $ smelter preset
 }
 ```
 
+#### install
+
+Bulk install titanium, alloy cli and Titanium SDK.
+
+```sh
+$ smelter install
+```
+
 #### clean
 
 Removes previous build and **Resources** directories.
@@ -129,6 +137,32 @@ Statistics a Alloy project(*yet files count only*).
 
 ```sh
 $ smelter stats
+
+┌───────────────────┬───────────────────────────┐
+│ File summary      │          controllers:  50 │
+│                   │                views:  50 │
+│                   │               styles:  50 │
+│                   │               models:   0 │
+│                   │              widgets:   0 │
+├───────────────────┼───────────────────────────┤
+│ View node summary │                 View: 327 │
+│                   │               Button: 203 │
+│                   │                Label: 183 │
+│                   │            ImageView:  19 │
+│                   │            TableView:  15 │
+│                   │         TableViewRow:   9 │
+│                   │               Module:   8 │
+│                   │          ListSection:   6 │
+│                   │             ListItem:   6 │
+│                   │         ItemTemplate:   6 │
+│                   │            Templates:   6 │
+│                   │             ListView:   6 │
+│                   │            TextField:   3 │
+│                   │           ScrollView:   2 │
+│                   │               Window:   1 │
+│                   │              Require:   1 │
+│                   │     NavigationWindow:   1 │
+└───────────────────┴───────────────────────────┘
 ```
 
 ### License
