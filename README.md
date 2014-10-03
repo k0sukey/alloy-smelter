@@ -133,36 +133,80 @@ $ smelter clean
 
 #### stats
 
-Statistics a Alloy project(*yet files count only*).
+Statistics a Alloy project.
 
 ```sh
 $ smelter stats
 
-┌───────────────────┬───────────────────────────┐
-│ File summary      │          controllers:  50 │
-│                   │                views:  50 │
-│                   │               styles:  50 │
-│                   │               models:   0 │
-│                   │              widgets:   0 │
-├───────────────────┼───────────────────────────┤
-│ View node summary │                 View: 327 │
-│                   │               Button: 203 │
-│                   │                Label: 183 │
-│                   │            ImageView:  19 │
-│                   │            TableView:  15 │
-│                   │         TableViewRow:   9 │
-│                   │               Module:   8 │
-│                   │          ListSection:   6 │
-│                   │             ListItem:   6 │
-│                   │         ItemTemplate:   6 │
-│                   │            Templates:   6 │
-│                   │             ListView:   6 │
-│                   │            TextField:   3 │
-│                   │           ScrollView:   2 │
-│                   │               Window:   1 │
-│                   │              Require:   1 │
-│                   │     NavigationWindow:   1 │
-└───────────────────┴───────────────────────────┘
+┌────────────────┬─────────────────────────────────────┐
+│ Category       │ Summary                             │
+├────────────────┼─────────────────────────────────────┤
+│ File           │                    controllers:   1 │
+│                │                          views:   3 │
+│                │                         styles:   1 │
+│                │                         models:   1 │
+├────────────────┼─────────────────────────────────────┤
+│ View node      │                          Label:   8 │
+│                │                      TextField:   4 │
+│                │                         Window:   3 │
+│                │                       MenuItem:   3 │
+│                │                           View:   3 │
+│                │                     HeaderView:   2 │
+│                │                       ListView:   2 │
+│                │                      Templates:   2 │
+│                │                   ItemTemplate:   2 │
+│                │                    ListSection:   2 │
+│                │                       ListItem:   2 │
+│                │                           Menu:   1 │
+│                │               NavigationWindow:   1 │
+│                │                      TabbedBar:   1 │
+│                │                         Labels:   1 │
+├────────────────┼─────────────────────────────────────┤
+│ Selector       │                        element:   9 │
+│                │                             id:   7 │
+│                │                          class:   2 │
+├────────────────┼─────────────────────────────────────┤
+│ Property       │                         height:   7 │
+│                │                         bottom:   6 │
+│                │                          width:   6 │
+│                │                           left:   5 │
+│                │                            top:   4 │
+│                │                backgroundColor:   3 │
+│                │                          title:   3 │
+│                │                          right:   3 │
+│                │                          color:   2 │
+│                │                 separatorColor:   1 │
+│                │            windowSoftInputMode:   1 │
+│                │                   paddingRight:   1 │
+│                │                 selectionStyle:   1 │
+│                │                      textAlign:   1 │
+│                │                  verticalAlign:   1 │
+│                │                       editable:   1 │
+│                │                          index:   1 │
+│                │                       hintText:   1 │
+├────────────────┼─────────────────────────────────────┤
+│ Color          │                           #fff:   1 │
+│                │                        #fcfcfc:   1 │
+│                │                        #bcbac1:   1 │
+│                │                        #f6f6f6:   1 │
+│                │                           #333:   1 │
+│                │                        #d9d9d9:   1 │
+├────────────────┼─────────────────────────────────────┤
+│ Event type     │                          click:   8 │
+│                │                       dblclick:   2 │
+│                │                          swipe:   2 │
+│                │                         return:   2 │
+├────────────────┼─────────────────────────────────────┤
+│ Event listener │                    doToggleall:   2 │
+│                │                       doToggle:   2 │
+│                │                         doEdit:   2 │
+│                │                       doDelete:   2 │
+│                │                       doEdited:   2 │
+│                │                          doAll:   1 │
+│                │                       doActive:   1 │
+│                │                    doCompleted:   1 │
+│                │                          doTab:   1 │
+└────────────────┴─────────────────────────────────────┘
 ```
 
 ### License
