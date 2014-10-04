@@ -12,6 +12,12 @@ I frequently the controller on move, rename and remove.
 $ [sudo] npm install -g alloy-smelter
 ```
 
+Installing edge version.
+
+```sh
+[sudo] npm install -g git://github.com/k0sukey/alloy-smelter.git
+```
+
 ### Usage
 
 ```sh
