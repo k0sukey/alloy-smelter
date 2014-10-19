@@ -1,6 +1,6 @@
 {
 	"name": "alloy-smelter",
-	"description": "Helper commands for Appcelerator Titanium MVC Framework Alloy",
+	"description": "Helper commands for Appcelerator Titanium MVC Framework Alloy project app.",
 	"main": "bin/smelter",
 	"bin": {
 		"sm": "bin/smelter",
