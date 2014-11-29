@@ -26,7 +26,7 @@
 		"url": "https://github.com/k0sukey/alloy-smelter/issues"
 	},
 	"preferGlobal": true,
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"dependencies": {
 		"alloy": "^1.5.1",
 		"base64": "^2.1.0",
