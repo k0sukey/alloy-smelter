@@ -80,6 +80,24 @@ $ smelter remove foo
 $ smelter remove bar/baz
 ```
 
+#### i18n
+
+Internationalization dir/file management.
+
+##### add
+
+```sh
+$ smelter i18n add en
+
+```
+
+##### remove
+
+```sh
+$ smelter i18n remove en
+
+```
+
 #### build
 
 Pass to Titanium build command.
